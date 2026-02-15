@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Sourse Code Pro", monospace;
+    color: azure;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #1f2937;
+    padding: 15px 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.h1 {
+    padding: 30px;
+    font-size: 42px;
+    color: azure;
+}
+
+.redes {
+    align-items: center;
+    margin-left: auto;
+    justify-content: space-between;
+    padding: 25.88%;
+    display: flex;
+    gap: 20px;
+}
+
+.redes a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.icons {
+    width: 60px;
+    height: auto;
+    justify-content: space-between;
+}
+
+.CONTAINER {
+    max-height: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #f77c01;
+}
+
+.CONTAINER P {
+    border-radius: 26px;
+    box-shadow: 0 0 0 4px #f77c01, 0 10px 30px black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #1f2937;
+    color: white;
+    padding: 20PX;
+    font-size: 28px;
+}
+
+.CONTAINER IMG {
+    margin-left: 10px;
+    max-width: 360px;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px black;
+}
+
+.CONTAINER DIV {
+    margin-left: 25PX;
+    border-radius: 16px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #303030;
+}
+
+#div {
+    max-width: 590PX;
+    margin: 25PX;
+}
+
+.h2 {
+    font-size: 42px;
+    color: #f77c01;
+    margin-bottom: 24px;
+}
+
+.curitiba {
+    position: relative;
+    padding: 100px;
+    background-image: url(../img/mapa\ \(1\).png);
+    background-size: cover;
+}
+
+.curitiba::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.curitiba>* {
+    position: relative;
+    z-index: 1;
+}
+
+.curitiba p {
+    border-radius: 30px;
+    margin-top: 70px;
+    padding: 20px;
+    box-shadow: 0 10px 30px black;
+    max-width: 600px;
+    font-size: 22px;
+    line-height: 1.9;
+    color: #c9c7c7;
+}
+
+.img {
+
+    width: 100%;
+}
+
+.imgmob {
+    display: none;
+}
+
+.contmob {
+
+    display: none;
+
+}

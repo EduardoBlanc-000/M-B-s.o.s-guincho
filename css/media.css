@@ -1,0 +1,113 @@
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+
+    body {
+
+        .menu {
+            max-height: 100px;
+            max-width: 270px;
+            display: block;
+        }
+
+        .h1 {
+            padding: 3px;
+            font-size: 26px;
+            color: azure;
+        }
+
+        .CONTAINER {
+            max-width: 270px;
+            height: 1580px;
+            max-height: none;
+            display: block;
+        }
+
+
+        .CONTAINER P {
+            font-size: 20px;
+            margin-right: 18px;
+            margin-left: 2px;
+            margin-top: 40px;
+        }
+
+        .CONTAINER IMG {
+            margin-left: 10px;
+            margin-top: 23px;
+            max-width: none;
+            width: 250px;
+        }
+
+        #div {
+            margin-right: 0;
+        }
+
+        .h2 {
+            font-size: 45px;
+            margin-bottom: 24px;
+            margin-top: 0;
+        }
+
+
+        .curitiba {
+            background-image: url(../img/mapacel.png);
+            background-size: cover;
+            padding: 40px;
+            max-width: 270px;
+        }
+
+        .curitiba p {
+            margin-right: 50px;
+            margin-bottom: 20px;
+            padding: 12px;
+            max-width: none;
+            width: 210px;
+            font-size: 20px;
+            line-height: 1.9;
+        }
+
+        .img {
+            display: none;
+        }
+
+        .contmob {
+            margin: 0;
+            max-width: 270px;
+            height: 80px;
+            display: flex;
+            background-color: #1f2937;
+        }
+
+        .contmob img {
+            margin-top: 10px;
+            margin-left: 50px;
+            width: 60px;
+        }
+
+        .imgmob {
+            max-width: 600px;
+            display: block;
+        }
+
+    }
+
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+    ...
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+    ...
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+    ...
+}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+    ...
+}
