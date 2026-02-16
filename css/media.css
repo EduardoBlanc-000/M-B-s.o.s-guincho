@@ -4,20 +4,19 @@
     body {
 
         .menu {
-            max-height: 100px;
-            max-width: 270px;
-            display: block;
+            height: 100px;
+            width: 100vw;
         }
 
         .h1 {
             padding: 3px;
-            font-size: 26px;
+            font-size: 25px;
             color: azure;
         }
 
         .CONTAINER {
-            max-width: 270px;
-            height: 1580px;
+            width: 100svw;
+            height: auto;
             max-height: none;
             display: block;
         }
@@ -34,7 +33,7 @@
             margin-left: 10px;
             margin-top: 23px;
             max-width: none;
-            width: 250px;
+            width: 95%;
         }
 
         #div {
@@ -52,7 +51,7 @@
             background-image: url(../img/mapacel.png);
             background-size: cover;
             padding: 40px;
-            max-width: 270px;
+            width: 100vw;
         }
 
         .curitiba p {
@@ -60,7 +59,7 @@
             margin-bottom: 20px;
             padding: 12px;
             max-width: none;
-            width: 210px;
+            width: 100%;
             font-size: 20px;
             line-height: 1.9;
         }
@@ -71,20 +70,20 @@
 
         .contmob {
             margin: 0;
-            max-width: 270px;
+            width: 100vw;
             height: 80px;
             display: flex;
             background-color: #1f2937;
         }
 
         .contmob img {
-            margin-top: 10px;
-            margin-left: 50px;
+            margin-left: 115%;
+            margin-top: 18%;
             width: 60px;
         }
 
         .imgmob {
-            max-width: 600px;
+            width: 100vw;
             display: block;
         }
 
