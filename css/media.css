@@ -5,7 +5,7 @@
 
         .menu {
             height: 100px;
-            width: 100vw;
+            width: 100%;
         }
 
         .h1 {
@@ -15,7 +15,7 @@
         }
 
         .CONTAINER {
-            width: 100svw;
+            width: 100%;
             height: auto;
             max-height: none;
             display: block;
@@ -51,7 +51,7 @@
             background-image: url(../img/mapacel.png);
             background-size: cover;
             padding: 40px;
-            width: 100vw;
+            width: 100%;
         }
 
         .curitiba p {
@@ -70,7 +70,7 @@
 
         .contmob {
             margin: 0;
-            width: 100vw;
+            width: 100%;
             height: 80px;
             display: flex;
             background-color: #1f2937;
@@ -83,7 +83,7 @@
         }
 
         .imgmob {
-            width: 100vw;
+            width: 100%;
             display: block;
         }
 
